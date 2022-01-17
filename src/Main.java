@@ -15,6 +15,8 @@ public class Main {
 	
 	public int operacaoComplexa1(int num1,int num2) {
 		return soma(num1, num2)*subtracao(num1,num2);
+	}
+	
 	public int operacaoComplexa2(int num1, int num2) {
 		return multiplicacao (num1, num2) + subtracao(num1, num2);
 	}
